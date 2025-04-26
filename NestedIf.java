@@ -5,7 +5,10 @@ public class NestedIf {
 
         boolean isSoldier;
         boolean isRelated;
-        double bill = 9.98;
+        double bill;
+
+        System.out.print("Enter your bill amount: ");
+        bill = scanner.nextDouble();
 
         System.out.print("Are you a soldier ? (true/false): ");
         isSoldier = scanner.nextBoolean();
